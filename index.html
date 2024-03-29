@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">Event Website</div>
+            
+            <div class="user-actions">
+                <button class="btn">Log In</button>
+                <button class="btn">Sign Up</button>
+                <button class="btn">Favorites</button>
+                
+            </div>
+            
+        </div>
+        <div class="location">Location: <span>Your Location</span></div>
+       
+        <div class="search-bar">
+            
+            <input type="text" placeholder="Search...">
+            <button class="btn">Search</button>
+           
+        </div>
+        <div class="categories">
+            <div class="event-categories">
+                <button class="btn">Live Shows</button>
+                <button class="btn">Movies</button>
+                <button class="btn">Streams</button>
+                <button class="btn">Activities</button>
+                <button class="btn">Sports</button>
+                <button class="btn">Plays</button>
+                <button class="btn">Events</button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="banner">
+            <img src="InternProject\Banner.svg" alt="Banner Image">
+        </div>
+        <section class="recommended-events">
+            <h2>Recommended Events</h2>
+            <div class="recommended-events-container"></div>
+        </section>
+        <section class="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <div class="upcoming-events-container"></div>
+            <div class="loader">Loading...</div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
